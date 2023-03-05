@@ -1,8 +1,8 @@
 # Selenium Browser Controller for apt Firefox on Ubuntu 22.10
 
-[!\[Python 3.10\]\[python_badge\]](https://www.python.org/downloads/release/python-3106/)
-[!\[License: AGPL v3\]\[agpl3_badge\]](https://www.gnu.org/licenses/agpl-3.0)
-[!\[Code Style: Black\]\[black_badge\]](https://github.com/ambv/black)
+[![Python 3.10][python_badge]](https://www.python.org/downloads/release/python-3106/)
+[![License: AGPL v3][agpl3_badge]](https://www.gnu.org/licenses/agpl-3.0)
+[![Code Style: Black][black_badge]](https://github.com/ambv/black)
 
 Example Python repository to quickly fork into new clean environment.
 
@@ -51,3 +51,9 @@ rm -r build
 python3 setup.py sdist bdist_wheel
 python3 -m twine upload dist/\*
 ```
+
+<!-- Un-wrapped URL's below (Mostly for Badges) -->
+[agpl3_badge]: https://img.shields.io/badge/License-AGPL_v3-blue.svg
+[black_badge]: https://img.shields.io/badge/code%20style-black-000000.svg
+[python_badge]: https://img.shields.io/badge/python-3.6-blue.svg
+
