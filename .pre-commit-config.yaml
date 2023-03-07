@@ -38,11 +38,13 @@ repos:
 # - repo: https://github.com/python/mypy
  - repo: https://github.com/pre-commit/mirrors-mypy
 ### - repo: https://github.com/a-t-0/mypy
-   rev: v1.0.1
+   rev: v1.1.1
    hooks:
     - id: mypy
       # args: ["--disallow-untyped-calls", "--disallow-untyped-defs"]
       args: ["--strict"]
+      additional_dependencies:
+            - typeguard
 
   # TODO:
   #--strict
@@ -170,7 +172,7 @@ repos:
  #    args: ['--never', '--application-directories', 'src']
 
  - repo: https://github.com/myint/docformatter
-   rev: v1.5.1
+   rev: v1.6.0.rc1
    hooks:
    - id: docformatter
 

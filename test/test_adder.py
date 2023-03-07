@@ -17,7 +17,6 @@ class Test_adder(unittest.TestCase):
     @typechecked
     def test_add_two_input_5(self) -> None:
         """Tests if add_two function adds 2 to an integer."""
-
         actual_result: int = add_two(x=5)
         expected_result: int = 7
         self.assertEqual(expected_result, actual_result)

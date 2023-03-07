@@ -5,8 +5,9 @@
 [![Code Style: Black][black_badge]](https://github.com/ambv/black)
 
 Example Python repository to quickly fork into new clean environment.
- - typechecking
- - pre-commit
+
+- typechecking
+- pre-commit
 
 ## Usage
 
@@ -55,7 +56,7 @@ python3 -m twine upload dist/\*
 ```
 
 <!-- Un-wrapped URL's below (Mostly for Badges) -->
+
 [agpl3_badge]: https://img.shields.io/badge/License-AGPL_v3-blue.svg
 [black_badge]: https://img.shields.io/badge/code%20style-black-000000.svg
 [python_badge]: https://img.shields.io/badge/python-3.6-blue.svg
-
