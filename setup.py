@@ -1,4 +1,5 @@
 """Packaging logic for pythontemplate."""
+
 from __future__ import annotations
 
 import os

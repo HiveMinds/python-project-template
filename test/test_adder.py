@@ -1,4 +1,5 @@
 """Tests whether the adder function indeed adds 2 to a given input."""
+
 import unittest
 
 from typeguard import typechecked
