@@ -1,6 +1,6 @@
 # Python Repository Template
 
-[![Python 3.10][python_badge]](https://www.python.org/downloads/release/python-3106/)
+[![Python 3.12][python_badge]](https://www.python.org/downloads/release/python-3120/)
 [![License: AGPL v3][agpl3_badge]](https://www.gnu.org/licenses/agpl-3.0)
 [![Code Style: Black][black_badge]](https://github.com/ambv/black)
 
