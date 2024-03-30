@@ -37,6 +37,7 @@ profile = "black"
 ignore_missing_imports = true
 
 
+
 [tool.pylint.basic]
 bad-names=[]
 [tool.pylint.messages_control]
@@ -58,4 +59,4 @@ disable=[
 # Sets the minimum allowed pytest version
 minversion = 5.0
 # Sets the path where test files are located (Speeds up Test Discovery)
-testpaths = ["tests"]
+testpaths = ["test"]

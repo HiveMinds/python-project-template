@@ -11,7 +11,7 @@ channels:
   - conda-forge
 dependencies:
 # Specify specific python version.
-  - python=3.10
+  - python=3.12
 # Pre-commit packages for code quality:
 # Run python tests.
   - pytest-cov
@@ -51,6 +51,10 @@ dependencies:
   - pyment
 # Auto check programming style aspects.
   - pylint
+# Support Sphinx documentation.
+  - sphinx
+# Support some advanced option for Sphinx documentation.
+  - sphinx-design
 # Enable publishing the pip package.
   - twine
 # Ensure the python function arguments are verified at runtime.
@@ -65,3 +69,9 @@ dependencies:
     - prettier
     # Allow for auto generation of type-hints during runtime.
     - pyannotate
+    # Some package that the Sphinx MWE used to create the documents.
+    - furo
+    # Allow the Sphinx documentation to auto generate the typed documentation.
+    - myst_parser
+    # Build the pip package.
+    - build

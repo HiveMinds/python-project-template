@@ -6,13 +6,13 @@
 # So to resolve that, a mirror is created that includes such a file.
 
 default_language_version:
-    python: python3.10.  # or python3
+    python: python3.12.  # or python3
 
 
 repos:
 # Test if the python code is formatted according to the Black standard.
  - repo: https://github.com/Quantco/pre-commit-mirrors-black
-   rev: 24.2.0
+   rev: 24.3.0
    hooks:
      - id: black-conda
        args:
@@ -138,7 +138,7 @@ repos:
 
 
  - repo: https://github.com/PyCQA/autoflake
-   rev: v2.3.0
+   rev: v2.3.1
    hooks:
     - id: autoflake
       args: ["--in-place", "--remove-unused-variables", "--remove-all-unused-imports", "--recursive"]
@@ -186,7 +186,7 @@ repos:
 # Updates the syntax of `.py` files to the specified python version.
 # It is not compatible with: pre-commit hook: fix-encoding-pragma
  - repo: https://github.com/asottile/pyupgrade
-   rev: v3.15.1
+   rev: v3.15.2
    hooks:
      - id: pyupgrade
        args: [--py38-plus]

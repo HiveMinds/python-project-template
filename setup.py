@@ -2,10 +2,14 @@
 
 from __future__ import annotations
 
-import os
-import sys
+from setuptools import find_packages, setup
 
-import setuptools
+# sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))
+# setuptools.setup()
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))
-setuptools.setup()
+
+setup(
+    name="pythontemplate",
+    version="1.0",
+    packages=find_packages(where="src"),
+)
