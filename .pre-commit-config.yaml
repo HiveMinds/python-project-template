@@ -17,7 +17,9 @@ repos:
      - id: black-conda
        args:
          - --safe
-         - --target-version=py36
+         - --target-version=py312
+         - --experimental-string-processing
+         - --line-length=80
 
 # Test if the python code is formatted according to the flake8 standard.
  - repo: https://github.com/Quantco/pre-commit-mirrors-flake8
